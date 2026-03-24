@@ -39,7 +39,6 @@ export default function Hero() {
           <div style={{ position:'absolute', bottom:8, right:8, width:20, height:20, borderRadius:'50%', background:'var(--green)', border:'3px solid white', boxShadow:'0 0 8px var(--green)' }} />
         </motion.div>
 
-        {/* Name */}
         <motion.h1 className="display font-bold"
           style={{ fontSize:'clamp(2.6rem,7vw,4.5rem)', letterSpacing:'-0.02em', lineHeight:1.1, color:'var(--text)', marginBottom:12 }}
           initial={{opacity:0,y:28}} animate={{opacity:1,y:0}}
@@ -47,7 +46,6 @@ export default function Hero() {
           Sagar Vashist
         </motion.h1>
 
-        {/* Role */}
         <motion.div style={{ marginBottom:20 }}
           initial={{opacity:0,y:16}} animate={{opacity:1,y:0}}
           transition={{duration:.5,delay:.28}}>
@@ -57,7 +55,6 @@ export default function Hero() {
           </span>
         </motion.div>
 
-        {/* Bio */}
         <motion.p style={{ color:'var(--muted)', lineHeight:1.8, maxWidth:560, fontSize:'clamp(14px,2vw,16px)', marginBottom:40 }}
           initial={{opacity:0,y:14}} animate={{opacity:1,y:0}}
           transition={{delay:.38}}>
@@ -65,7 +62,6 @@ export default function Hero() {
           I build beautiful, scalable web applications that your users will love.
         </motion.p>
 
-        {/* CTA */}
         <motion.button className="btn-outline"
           style={{ fontSize:15, padding:'14px 40px' }}
           onClick={() => document.querySelector('#contact')?.scrollIntoView({behavior:'smooth'})}
