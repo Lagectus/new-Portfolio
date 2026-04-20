@@ -5,6 +5,17 @@ import { ArrowUpRight, ExternalLink } from 'lucide-react'
 
 const projects = [
   {
+    title: 'DevLens - AI-Powered Code Intelligence Platform',
+    sub: 'Full Stack · Next.js + TypeScript',
+    live: 'https://dev-lens-phi.vercel.app/',
+    github: 'https://github.com/Lagectus',
+    tag: 'Full Stack',
+    // Put your screenshot here: /projects/ai-resume.png
+    // If no screenshot, we use a live preview via screenshot API
+    img: '/projects/DevLens.png',
+    previewUrl: 'https://dev-lens-phi.vercel.app/',
+  },
+  {
     title: 'AI Resume Builder',
     sub: 'Full Stack · Next.js + TypeScript',
     live: 'https://resume-builder-three-fawn.vercel.app/',
