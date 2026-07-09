@@ -71,6 +71,15 @@ const projects = [
     img: '/projects/portfolio.png',
     previewUrl: 'https://sagar-folio.netlify.app',
   },
+  {
+    title: 'Netflix Clone',
+    sub: 'Full Stack · Web App',
+    live: 'https://netflix-clone-lemon-one-44.vercel.app/',
+    github: 'https://github.com/Lagectus/netflix-clone',
+    tag: 'Full Stack',
+    img: '/projects/netflix.png',
+    previewUrl: 'https://netflix-clone-lemon-one-44.vercel.app/',
+  },
 ]
 
 const filters = ['All', 'Full Stack', 'Frontend', 'Client']
